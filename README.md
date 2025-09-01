@@ -107,5 +107,15 @@ python manage.py runserver
     <li>Frontend integration with React or Vue</li>
 </ul>
 
+<h2>🐍 API Documentation</h2>
+<p>Interactive API documentation is available via:</p>
+
+<ul>
+  <li>Swagger UI: <a href="http://127.0.0.1:8000/swagger/" target="_blank">http://127.0.0.1:8000/swagger/</a></li>
+  <li>Redoc: <a href="http://127.0.0.1:8000/redoc/" target="_blank">http://127.0.0.1:8000/redoc/</a></li>
+</ul>
+
+<p>Both allow you to view endpoints, send requests, and test APIs interactively.</p>
+
 </body>
 </html>

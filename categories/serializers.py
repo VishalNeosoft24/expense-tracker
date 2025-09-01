@@ -16,3 +16,8 @@ class CategorySummarySerializer(serializers.Serializer):
     max_limit = serializers.IntegerField()
     used = serializers.IntegerField()
     remaining = serializers.IntegerField()
+    
+class CategorySerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Category
+        fields = '__all__'
